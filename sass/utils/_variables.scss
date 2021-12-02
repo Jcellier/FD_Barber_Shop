@@ -1,0 +1,16 @@
+// Font related stuff
+$font-text: "Roboto", sans-serif;
+
+
+// Color Scheme for background
+$primary-bg-color: #ffffff;
+$secondary-bg-color: #000;
+$tertiary-bg-color: #F4F4F4;
+
+
+// Breakpoints for responsivness
+$breakpoints : (
+    sm-tablet: 43em,    // 688px
+    lg-tablet: 62em,    // 992px
+    desktop: 82em       // 1312px
+);
