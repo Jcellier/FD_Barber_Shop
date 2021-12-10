@@ -1,5 +1,6 @@
 // Font related stuff
 $font-text: "Roboto", sans-serif;
+$font-header: "Lato";
 $font-color-gold: #ba894d;
 $font-color-grey: #7f7f7f;
 
@@ -7,6 +8,7 @@ $font-color-grey: #7f7f7f;
 $primary-bg-color: #ffffff;
 $secondary-bg-color: #000;
 $tertiary-bg-color: #f4f4f4;
+$button-bg: #808080;
 
 // Breakpoints for responsivness
 $breakpoints: (
@@ -14,7 +16,7 @@ $breakpoints: (
 	// 688px
 	lg-tablet: 62em,
 	// 992px
-	desktop: 82em // 1312px,,,
+	desktop: 82em // 1312px,,,,,,,,
 );
 
 // Padding and margins -- TBD
