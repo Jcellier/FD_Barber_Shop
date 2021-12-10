@@ -1,18 +1,20 @@
 // Font related stuff
 $font-text: "Roboto", sans-serif;
-
+$font-color-gold: #ba894d;
+$font-color-grey: #7f7f7f;
 
 // Color Scheme for background
 $primary-bg-color: #ffffff;
 $secondary-bg-color: #000;
-$tertiary-bg-color: #F4F4F4;
-
+$tertiary-bg-color: #f4f4f4;
 
 // Breakpoints for responsivness
-$breakpoints : (
-    sm-tablet: 43em,    // 688px
-    lg-tablet: 62em,    // 992px
-    desktop: 82em       // 1312px
+$breakpoints: (
+	sm-tablet: 43em,
+	// 688px
+	lg-tablet: 62em,
+	// 992px
+	desktop: 82em // 1312px,,,
 );
 
 // Padding and margins -- TBD

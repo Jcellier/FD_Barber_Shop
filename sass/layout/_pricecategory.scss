@@ -1,0 +1,9 @@
+// Price listing
+.price__category1,
+.price__category2 {
+	&-title {
+		font-size: 1.5rem;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+}

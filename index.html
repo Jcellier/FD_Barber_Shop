@@ -1,21 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google fonts link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> 
+		<!-- Google fonts link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!-- CSS link -->
-    <link rel="stylesheet" href="css/style.css" />
+		<!-- CSS link -->
+		<link rel="stylesheet" href="css/style.css" />
 
-    <title>FD Barber Shop</title>
-</head>
-<body>
-    <header>abcde</header>
-</body>
+		<title>FD Barber Shop</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__logo">
+				<img
+					class="header__logo-img"
+					src="./assets/FD_no_bg.png"
+					alt="FD Barber logo"
+				/>
+			</div>
+			<nav class="header__nav">
+				<a href="#price" class="header__nav-price">Price list</a>
+				<a href="#" class="header__nav-social">Social</a>
+				<a href="#" class="header__nav-book">Book</a>
+			</nav>
+		</header>
+		<main>
+			<section class="banner">
+				<div class="banner__fade">
+					<img
+						class="banner__fade-img"
+						src="./assets/FD_no_bg.png"
+						alt="FD Barber logo"
+					/>
+					<h1 class="banner__fade-txt">FD Barber Shop</h1>
+				</div>
+			</section>
+			<section class="description">
+				<div class="description__barber">
+					<p class="description__barber-txt">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+						ipsum officia illum reprehenderit possimus temporibus, facilis
+						soluta labore incidunt voluptate quisquam fugit neque eaque,
+						quibusdam obcaecati repudiandae, exercitationem ex ut ullam.<br /><br />
+						Necessitatibus laborum ea ipsa atque qui, dolore, maxime minus
+						corrupti quisquam in nulla quos modi repellat laudantium eveniet
+						placeat?
+					</p>
+				</div>
+			</section>
+			<section class="price" id="price">
+				<h2 class="price__title">Price List</h2>
+				<hr class="price__separator"></hr>
+				<div class="price__category1">
+					<h3 class="price__category1-title">Hair salon</h3>
+					<ul class="price__category1-list">
+						<li class="price__category1-list_item1">
+							Lorem ipsum dolor sit amet. 30€
+						</li>
+						<li class="price__category1-list_item2">Lorem, ipsum dolor. 30€</li>
+						<li class="price__category1-list_item3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, atque.. 30€</li>
+						<li class="price__category1-list_item4">Lorem ipsum dolor sit. 30€</li>
+					</ul>
+				</div>
+				<hr class="price__separator"></hr>
+				<div class="price__category2">
+					<h3 class="price__category2-title">Beards and grooming</h3>
+					<ul class="price__category2-list">
+						<li class="price__category2-list_item1">
+							Lorem ipsum dolor sit amet.
+						</li>
+						<li class="price__category2-list_item2">Lorem, ipsum dolor. 30€</li>
+						<li class="price__category2-list_item3">Lorem, ipsum. 30€</li>
+						<li class="price__category2-list_item4">Lorem ipsum dolor sit. 30€</li>
+					</ul>
+				</div>
+			</section>
+      <hr class="price__separator"></hr>
+      <section class="social" id="social">
+        <h2 class="social__title">Follow us on social</h2>
+        <div class="social__instagram">Instagram</div>
+        <div class="social__facebook">Facebook</div>
+        <div class="social__gallery">
+          <img src="" alt="model photo 1">
+          <img src="" alt="model photo 2">
+          <img src="" alt="model photo 3">
+          <img src="" alt="model photo 4">
+          <img src="" alt="model photo 5">
+        </div>
+      </section>
+		</main>
+	</body>
 </html>

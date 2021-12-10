@@ -1,0 +1,31 @@
+header {
+	display: flex;
+	margin: 5%;
+	justify-content: space-between;
+}
+
+// Header logo & nav
+
+.header {
+	&__logo {
+		width: 50px;
+		height: 40px;
+	}
+	&__logo-img {
+		width: 50px;
+		height: 40px;
+	}
+	&__nav {
+		width: 60%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		& a {
+			text-decoration: none;
+			color: black;
+			&:hover {
+				color: grey;
+			}
+		}
+	}
+}
