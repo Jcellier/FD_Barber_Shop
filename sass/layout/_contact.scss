@@ -1,6 +1,7 @@
 .contact {
 	background-color: $tertiary-bg-color;
 	min-height: 50vh;
+	padding-top: 30px;
 }
 
 .contact__call {
@@ -60,4 +61,39 @@
 		max-width: 90vw;
 		filter: grayscale(100%);
 	}
+}
+
+@include tablet {
+	.contact__container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 0.1fr 1fr 1fr;
+		gap: 0px 0px;
+		grid-template-areas:
+			"book book book book"
+			"separator separator separator separator"
+			"hours hours address address"
+			"hours hours address address";
+	}
+	.contact__hours {
+		grid-area: hours;
+		padding: 0px;
+		padding-top: 50px;
+		text-align: center;
+	}
+	.contact__address {
+		grid-area: address;
+		padding: 0px;
+		padding-top: 50px;
+		text-align: center;
+	}
+	.contact__call {
+		grid-area: book;
+	}
+	.contact__separator {
+		grid-area: separator;
+	}
+	// .contact__container {
+	// 	display: flex;
+	// }
 }

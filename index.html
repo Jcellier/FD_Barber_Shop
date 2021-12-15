@@ -23,19 +23,21 @@
 	</head>
 
 	<body>
-		<header class="header">
-			<div class="header__logo">
-				<img
-					class="header__logo-img"
-					src="./assets/FD_no_bg.png"
-					alt="FD Barber logo"
-				/>
+		<header id="navbar">
+			<div class="header">
+				<div class="header__logo">
+					<img
+						class="header__logo-img"
+						src="./assets/FD_no_bg.png"
+						alt="FD Barber logo"
+					/>
+				</div>
+				<nav class="header__nav">
+					<a href="#price" class="header__nav-price">Price list</a>
+					<a href="#social" class="header__nav-social">Social</a>
+					<a href="#book" class="header__nav-book">Book</a>
+				</nav>
 			</div>
-			<nav class="header__nav">
-				<a href="#price" class="header__nav-price">Price list</a>
-				<a href="#" class="header__nav-social">Social</a>
-				<a href="#" class="header__nav-book">Book</a>
-			</nav>
 		</header>
 		<main>
 			<section class="banner">
@@ -104,37 +106,40 @@
 					<img src="./assets/images/photo5.jpg" alt="model photo 5">
 				</div>
 			</section>
-			<section class="contact">
+			<section class="contact" id="book">
 				<div class="contact__call">
 					<h2 class="contact__call-header">Book an appointment</h2>
 					<a href="tel:+35700000000" class="contact__call-btn btn1 btn4">Call us now !</a>
 				</div>
-				<hr class="contact__separator"></hr>
-				<div class="contact__hours">
-					<h2 class="contact__hours-header">Opening hours</h2>
-					<div class="contact__hours-hours">
-						<p>Monday - Wednesday: 9AM to 6PM</p>
-						<p>Thursday - Saturday: 10AM - 5:30PM</p>
-						<p>Sunday: Closed</p>
+				<div class="contact__container">
+					<hr class="contact__separator"></hr>
+					<div class="contact__hours">
+						<h2 class="contact__hours-header">Opening hours</h2>
+						<div class="contact__hours-hours">
+							<p>Monday - Wednesday: 9AM to 6PM</p>
+							<p>Thursday - Saturday: 10AM - 5:30PM</p>
+							<p>Sunday: Closed</p>
+						</div>
 					</div>
-				</div>
-				<hr class="contact__separator"></hr>
-				<div class="contact__address">
-					<h2 class="contact__address-header">Address</h2>
-					<div class="contact_address-address">
-						<p>Fade Barber</p>
-						<p>Gladstonos street 66</p>
-						<p>Limassol City, 3041</p>
-					</div>
-					<div class="contact__address-maps">
-						<iframe src="https://maps.google.com/maps?q=Gladstonos%20street%2066,%20Limassol%20City,%203041,%20Cyprus&t=&z=17&ie=UTF8&iwloc=&output=embed"
-						width="600"
-						height="450"
-						frameborder="0"
-						style="border:0"
-						class="map"></iframe>
+					<hr class="contact__separator"></hr>
+					<div class="contact__address">
+						<h2 class="contact__address-header">Address</h2>
+						<div class="contact_address-address">
+							<p>Fade Barber</p>
+							<p>Gladstonos street 66</p>
+							<p>Limassol City, 3041</p>
+						</div>
+						
 					</div>
 				</div>	
+				<div class="contact__address-maps">
+					<iframe src="https://maps.google.com/maps?q=Gladstonos%20street%2066,%20Limassol%20City,%203041,%20Cyprus&t=&z=17&ie=UTF8&iwloc=&output=embed"
+					width="600"
+					height="450"
+					frameborder="0"
+					style="border:0"
+					class="map"></iframe>
+				</div>
 			</section>
 		</main>
 		<footer>
@@ -144,9 +149,11 @@
 				<a href="#"><i class="fab fa-facebook fa-lg"></i></a>
 				<a href=""><i class="fab fa-instagram fa-lg"></i></a>
 			</div>
-			<div>
+			<div class="made_by">
 				<p>Website made by Cellier-Auffret Jordan</p>
-			</div>	
+			</div>
 		</footer>
+		<!-- Link for javascript -->
+		<script src="./index.js" defer></script>
 	</body>
 </html>
