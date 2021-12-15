@@ -18,6 +18,12 @@ footer {
 	width: 60%;
 	justify-content: space-around;
 	align-items: center;
+	@include desktop {
+		width: 20%;
+	}
+	@include medium-screen {
+		width: 30%;
+	}
 }
 
 .made_by {

@@ -25,6 +25,12 @@
 		@include tablet {
 			width: 40%;
 		}
+		@include medium-screen {
+			width: 25%;
+		}
+		@include desktop {
+			width: 20%;
+		}
 		& a {
 			text-decoration: none;
 			color: black;
