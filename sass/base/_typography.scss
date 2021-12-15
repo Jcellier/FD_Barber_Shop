@@ -1,3 +1,8 @@
 html {
 	font-family: $font-text;
 }
+
+@include headings {
+	font-family: "Lato";
+	font-weight: 300;
+}
