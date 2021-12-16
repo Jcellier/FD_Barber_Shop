@@ -7,3 +7,42 @@
 		padding-bottom: 20px;
 	}
 }
+
+.price__category1-list h4,
+.price__category2-list h4 {
+	font-size: 1.2rem;
+}
+
+.price__category1-list li,
+.price__category2-list li {
+	line-height: 1.5;
+	padding-bottom: 30px;
+}
+
+@include medium-screen {
+	.price__category1-list li,
+	.price__category2-list li {
+		text-align: center;
+	}
+
+	.price__category1-list p,
+	.price__category2-list p {
+		width: 70%;
+		margin-left: 15%;
+		text-align: center;
+	}
+}
+
+@include desktop {
+	.price__category1-list li,
+	.price__category2-list li {
+		text-align: center;
+	}
+
+	.price__category1-list p,
+	.price__category2-list p {
+		width: 70%;
+		margin-left: 15%;
+		text-align: center;
+	}
+}

@@ -60,6 +60,17 @@
 	& iframe {
 		max-width: 90vw;
 		filter: grayscale(100%);
+		border: none;
+		height: 450px;
+		width: 80vw;
+		@include medium-screen {
+			width: 90vw;
+			height: 60vh;
+		}
+		@include desktop {
+			width: 90vw;
+			height: 60vh;
+		}
 	}
 }
 

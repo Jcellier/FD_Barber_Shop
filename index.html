@@ -14,22 +14,110 @@
 		/>
 
 		<!-- Timify -->
-		<script async
+		<!-- <script
+			async
+			src="//book.timify.com/widget/widget.min.js"
+			id="timify-widget"
+			data-position="right"
+			data-locale="en-gb"
+			data-account-id="61bb43621b60bc10f2d1849a"
+			data-locale="en-gb"
+		></script> -->
 
-	src="//book.timify.com/widget/widget.min.js"
-	id="timify-widget"
-	data-position="right"
-	data-locale="fr-fr"
-	data-account-id="61bae87e11c83d10f177cbe6"
-	data-locale="fr-fr"
-
-></script>
+		<script
+			async
+			src="//book.timify.com/widget/widget.min.js"
+			id="timify-widget"
+			data-position="flexible"
+			data-locale="en-en"
+		></script>
 
 		<!-- CSS link -->
 		<link rel="stylesheet" href="css/style.css" />
 
 		<!-- Font Awesome link -->
-		<script src="https://kit.fontawesome.com/819f8521b8.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/819f8521b8.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Favicons -->
+
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="./assets/icons/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="./assets/icons/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="./assets/icons/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="./assets/icons/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="./assets/icons/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="./assets/icons/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="./assets/icons/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="./assets/icons/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./assets/icons/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="./assets/icons/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/icons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="96x96"
+			href="./assets/icons/favicon-96x96.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="./assets/icons/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="./assets/icons/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<!-- End of Favicons -->
 
 		<title>FD Barber Shop</title>
 	</head>
@@ -40,10 +128,10 @@
 				<div class="header__logo">
 					<a href="#">
 						<img
-						class="header__logo-img"
-						src="./assets/FD_no_bg.png"
-						alt="FD Barber logo"
-					/>
+							class="header__logo-img"
+							src="./assets/FD_no_bg.png"
+							alt="FD Barber logo"
+						/>
 					</a>
 				</div>
 				<nav class="header__nav">
@@ -58,7 +146,7 @@
 				<div class="banner__fade">
 					<img
 						class="banner__fade-img"
-						src="./assets/FD_no_bg.png"
+						src="./assets/FD_svg.svg"
 						alt="FD Barber logo"
 					/>
 					<h1 class="banner__fade-txt">Fade Barber Shop</h1>
@@ -66,6 +154,7 @@
 			</section>
 			<section class="description">
 				<div class="description__barber">
+					<h2 class="description__barber-header">Fade Barber Shop</h2>
 					<p class="description__barber-txt">
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
 						ipsum officia illum reprehenderit possimus temporibus, facilis
@@ -79,63 +168,104 @@
 			</section>
 			<section class="price" id="price">
 				<h2 class="price__title">Price List</h2>
-				<hr class="price__separator"></hr>
+				<hr class="price__separator" />
 				<div class="price__category1">
 					<h3 class="price__category1-title">Hair salon</h3>
 					<ul class="price__category1-list">
 						<li class="price__category1-list_item1">
-							Lorem ipsum dolor sit amet. 30€
+							<h4>Title - 30€</h4>
+							<p>Description</p>
 						</li>
-						<li class="price__category1-list_item2">Lorem, ipsum dolor. 30€</li>
-						<li class="price__category1-list_item3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, atque.. 30€</li>
-						<li class="price__category1-list_item4">Lorem ipsum dolor sit. 30€</li>
+						<li class="price__category1-list_item2">
+							<h4>Title - 30€</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+								vitae nihil adipisci.
+							</p>
+						</li>
+						<li class="price__category1-list_item3">
+							<h4>Title - 30€</h4>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+						</li>
+						<li class="price__category1-list_item4">
+							<h4>Title - 30€</h4>
+							<p>Lorem ipsum dolor sit amet.</p>
+						</li>
 					</ul>
 				</div>
-				<hr class="price__separator"></hr>
+				<hr class="price__separator" />
 				<div class="price__category2">
 					<h3 class="price__category2-title">Beards and grooming</h3>
 					<ul class="price__category2-list">
 						<li class="price__category2-list_item1">
-							Lorem ipsum dolor sit amet.
+							<h4>Title - 30€</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Doloremque harum tempore nesciunt at delectus? Sunt aliquam
+								culpa nobis impedit provident?
+							</p>
 						</li>
-						<li class="price__category2-list_item2">Lorem, ipsum dolor. 30€</li>
-						<li class="price__category2-list_item3">Lorem, ipsum. 30€</li>
-						<li class="price__category2-list_item4">Lorem ipsum dolor sit. 30€</li>
+						<li class="price__category2-list_item2">
+							<h4>Title - 30€</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Doloremque harum tempore nesciunt at delectus? Sunt aliquam
+								culpa nobis impedit provident?
+							</p>
+						</li>
+						<li class="price__category2-list_item3">
+							<h4>Title - 30€</h4>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Quibusdam, dolor!
+							</p>
+						</li>
+						<li class="price__category2-list_item4">
+							<h4>Title - 30€</h4>
+							<p>Description</p>
+						</li>
 					</ul>
 				</div>
-			</section>   
+			</section>
 			<section class="social" id="social">
-				<hr class="price__separator"></hr>
+				<hr class="price__separator" />
 				<h2 class="social__title">Follow us on social</h2>
 				<div class="social__media">
 					<a href="#" class="social__media-instagram btn btn3">Instagram</a>
 					<a href="#" class="social__media-facebook btn btn3">Facebook</a>
 				</div>
-				
+
 				<div class="social__gallery">
-					<img src="./assets/images/photo1.jpg" alt="model photo 1">
-					<img src="./assets/images/photo2.jpg" alt="model photo 2">
-					<img src="./assets/images/photo3.jpg" alt="model photo 3">
-					<img src="./assets/images/photo4.jpg" alt="model photo 4">
-					<img src="./assets/images/photo5.jpg" alt="model photo 5">
+					<img src="./assets/images/photo1.jpg" alt="model photo 1" />
+					<img src="./assets/images/photo2.jpg" alt="model photo 2" />
+					<img src="./assets/images/photo3.jpg" alt="model photo 3" />
+					<img src="./assets/images/photo4.jpg" alt="model photo 4" />
+					<img src="./assets/images/photo5.jpg" alt="model photo 5" />
 				</div>
 			</section>
 			<section class="contact" id="book">
 				<div class="contact__call">
 					<h2 class="contact__call-header">Book an appointment</h2>
-					<a href="tel:+35700000000" class="contact__call-btn btn1 btn4">Call us now !</a>
+					<div
+						class="timify-button btn1 btn4"
+						data-account-id="61bb43621b60bc10f2d1849a"
+					>
+						Book Online
+					</div>
+					<p>OR</p>
+					<a href="tel:+35796007981" class="contact__call-btn btn1 btn4"
+						>Call us now !</a
+					>
 				</div>
 				<div class="contact__container">
-					<hr class="contact__separator"></hr>
+					<hr class="contact__separator" />
 					<div class="contact__hours">
 						<h2 class="contact__hours-header">Opening hours</h2>
 						<div class="contact__hours-hours">
-							<p>Monday - Wednesday: 9AM to 6PM</p>
-							<p>Thursday - Saturday: 10AM - 5:30PM</p>
-							<p>Sunday: Closed</p>
+							<p>Monday to Sunday: 8:00 AM – 10:00 PM</p>
 						</div>
 					</div>
-					<hr class="contact__separator"></hr>
+					<hr class="contact__separator" />
 					<div class="contact__address">
 						<h2 class="contact__address-header">Address</h2>
 						<div class="contact_address-address">
@@ -143,28 +273,18 @@
 							<p>Gladstonos street 66</p>
 							<p>Limassol City, 3041</p>
 						</div>
-						
 					</div>
-				</div>	
-				<div class="contact__address-maps">
-					<iframe src="https://maps.google.com/maps?q=Gladstonos%20street%2066,%20Limassol%20City,%203041,%20Cyprus&t=&z=17&ie=UTF8&iwloc=&output=embed"
-					width="600"
-					height="450"
-					frameborder="0"
-					style="border:0"
-					class="map"></iframe>
 				</div>
-
-				<iframe src="https://book.timify.com?accountId=61bae87e11c83d10f177cbe6&fullscreen=1&hideCloseButton=1&locale=fr-fr"
-				frameborder="0"
-				width="600"
-				height="450"></iframe>
-				
+				<div class="contact__address-maps">
+					<iframe
+						src="https://maps.google.com/maps?q=Gladstonos%20street%2066,%20Limassol%20City,%203041,%20Cyprus&t=&z=17&ie=UTF8&iwloc=&output=embed"
+					></iframe>
+				</div>
 			</section>
 		</main>
 		<footer>
 			<div class="footer_items">
-				<a href="#"><i class="fas fa-phone fa-lg"></i></a>
+				<a href="tel:+35796007981"><i class="fas fa-phone fa-lg"></i></a>
 				<a href="#"><i class="fas fa-envelope fa-lg"></i></a>
 				<a href="#"><i class="fab fa-facebook fa-lg"></i></a>
 				<a href=""><i class="fab fa-instagram fa-lg"></i></a>
