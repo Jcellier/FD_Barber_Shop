@@ -63,19 +63,19 @@
 			padding-bottom: 30px;
 		}
 		&-txt {
-			text-align: center;
+			text-align: justify;
 			line-height: 1.5;
 			@include tablet {
 				font-size: 1.1rem;
-				line-height: 1.8;
+				line-height: 1.6;
 			}
 			@include medium-screen {
 				font-size: 1.2rem;
-				line-height: 1.8;
+				line-height: 1.6;
 			}
 			@include desktop {
 				font-size: 1.3rem;
-				line-height: 1.8;
+				line-height: 1.6;
 			}
 		}
 	}
@@ -98,16 +98,6 @@ hr {
 		text-align: center;
 		padding-bottom: 20px;
 	}
-}
-
-li {
-	list-style-type: none;
-	padding: 5px 0 5px 0;
-}
-
-.price__category1,
-.price__category2 {
-	padding: 20px 0 20px 0;
 }
 
 // Social Media

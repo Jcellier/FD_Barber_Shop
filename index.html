@@ -107,7 +107,7 @@
 		<header id="navbar">
 			<div class="header">
 				<div class="header__logo">
-					<a href="#">
+					<a href="#banner">
 						<img
 							class="header__logo-img"
 							src="./assets/FD_no_bg.png"
@@ -123,7 +123,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="banner">
+			<section class="banner" id="banner">
 				<div class="banner__fade">
 					<img
 						class="banner__fade-img"
@@ -156,65 +156,46 @@
 			<section class="price" id="price">
 				<h2 class="price__title">Price List</h2>
 				<hr class="price__separator" />
-				<p>Master Barber - €25</p>
-				<p>Barber - €25</p>
-				<!-- <div class="price__category1">
-					<h3 class="price__category1-title">Hair salon</h3>
-					<ul class="price__category1-list">
-						<li class="price__category1-list_item1">
-							<h4>Title - 30€</h4>
-							<p>Description</p>
-						</li>
-						<li class="price__category1-list_item2">
-							<h4>Title - 30€</h4>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-								vitae nihil adipisci.
-							</p>
-						</li>
-						<li class="price__category1-list_item3">
-							<h4>Title - 30€</h4>
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-						</li>
-						<li class="price__category1-list_item4">
-							<h4>Title - 30€</h4>
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-					</ul>
+				<div class="price__container">
+					<div class="price__masterbarber">
+						<h3 class="price__masterbarber-title">Head Barber - €25</h3>
+						<img
+							src="./assets/master-barber.svg"
+							alt="Head Barber logo"
+							class="price__masterbarber-img"
+						/>
+						<p class="price__masterbarber-description">
+							Moad, our talented head barber who is the owner and founder of
+							Fade Barber Shop in Limassol, Cyprus is coming from a family of
+							barbers. He grew up developing his passion by watching his
+							grandfather and father providing top class haircuts. <br />As a 12
+							year old boy he became to practice cutting and grooming hair as a
+							trade. Since then he’s been following his dream. Despite his quite
+							young age he is consistently providing an excellent hair care
+							services. Moad is a passionate barber, he loves what he does and
+							that differentiates him from others and makes him a top barber in
+							Cyprus.
+						</p>
+					</div>
+					<div class="price__barber">
+						<h3 class="price__barber-title">Barber - €20</h3>
+						<img
+							src="./assets/regular-barber.svg"
+							alt="Regular Barber logo"
+							class="price__barber-img"
+						/>
+						<p class="price__barber-description">
+							Fade Barber provides our barbers with constant education and
+							mentorship to perform at the highest level so that every service
+							is top notch. Rest easy in one of the best Cyprus barbershop
+							chairs and you'll enjoy a clean, hot towel, a drink while being
+							taken care of one of our best performing team members.
+							<br /><br />Our barbers are carefully selected so we make sure our
+							customers are always provided with the best service. Come and say
+							Hi!
+						</p>
+					</div>
 				</div>
-				<hr class="price__separator" />
-				<div class="price__category2">
-					<h3 class="price__category2-title">Beards and grooming</h3>
-					<ul class="price__category2-list">
-						<li class="price__category2-list_item1">
-							<h4>Title - 30€</h4>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Doloremque harum tempore nesciunt at delectus? Sunt aliquam
-								culpa nobis impedit provident?
-							</p>
-						</li>
-						<li class="price__category2-list_item2">
-							<h4>Title - 30€</h4>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Doloremque harum tempore nesciunt at delectus? Sunt aliquam
-								culpa nobis impedit provident?
-							</p>
-						</li>
-						<li class="price__category2-list_item3">
-							<h4>Title - 30€</h4>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Quibusdam, dolor!
-							</p>
-						</li>
-						<li class="price__category2-list_item4">
-							<h4>Title - 30€</h4>
-							<p>Description</p>
-						</li>
-					</ul>
-				</div> -->
 			</section>
 			<section class="social" id="social">
 				<hr class="price__separator" />
@@ -267,6 +248,27 @@
 						</div>
 					</div>
 				</div>
+				<!-- Google Reviews -->
+				<!-- <div id="google-reviews"></div>
+
+				<link
+					rel="stylesheet"
+					href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css"
+				/>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
+				<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCQ4IF-qQirgFLxYZQ9AHQFuzoX5I6cx50&signed_in=true&libraries=places"></script>
+
+				<script>
+					jQuery(document).ready(function ($) {
+						$("#google-reviews").googlePlaces({
+							placeId: "ChIJ__qGRkYz5xQRWjp15YYAZEA", //Find placeID @: https://developers.google.com/places/place-id
+							render: ["reviews"],
+							min_rating: 4,
+							max_rows: 4,
+						});
+					});
+				</script> -->
 				<div class="contact__address-maps">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.9850197939195!2d33.04094665679689!3d34.68032754635899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e733464686faff%3A0x40640086e5753a5a!2sFade%20Barber%20Shop!5e0!3m2!1sfr!2sfr!4v1641462511062!5m2!1sfr!2sfr"

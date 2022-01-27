@@ -1,48 +1,82 @@
-// Price listing
-.price__category1,
-.price__category2 {
-	&-title {
-		font-size: 1.5rem;
-		text-align: center;
-		padding-bottom: 20px;
-	}
+.price__separator {
+	padding-bottom: 50px;
 }
 
-.price__category1-list h4,
-.price__category2-list h4 {
-	font-size: 1.2rem;
-}
-
-.price__category1-list li,
-.price__category2-list li {
-	line-height: 1.5;
+.price__masterbarber-title,
+.price__barber-title {
+	text-align: center;
 	padding-bottom: 30px;
-}
-
-@include medium-screen {
-	.price__category1-list li,
-	.price__category2-list li {
-		text-align: center;
+	@include tablet {
+		font-size: 1.5rem;
 	}
-
-	.price__category1-list p,
-	.price__category2-list p {
-		width: 70%;
-		margin-left: 15%;
-		text-align: center;
+	@include medium-screen {
+		font-size: 1.6rem;
+	}
+	@include desktop {
+		font-size: 1.6rem;
 	}
 }
 
+.price__barber-title {
+	padding-top: 50px;
+	@include desktop {
+		padding-top: 0px;
+	}
+}
+
+.price__masterbarber-img,
+.price__barber-img {
+	height: 258px;
+	width: 300px;
+	padding-bottom: 30px;
+	@include tablet {
+		height: 330px;
+		width: 380px;
+	}
+	@include medium-screen {
+		height: 423px;
+		width: 488px;
+	}
+}
+
+.price__masterbarber,
+.price__barber {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	@include desktop {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.price__masterbarber-description,
+.price__barber-description {
+	line-height: 1.5;
+	font-size: 1rem;
+	text-align: justify;
+	@include tablet {
+		font-size: 1.1rem;
+		line-height: 1.8;
+	}
+	@include medium-screen {
+		font-size: 1.2rem;
+		line-height: 1.8;
+	}
+	@include desktop {
+		width: 90%;
+		min-height: 250px;
+		font-size: 1.1rem;
+		line-height: 1.5;
+	}
+}
+
+.price__container {
+	@include desktop {
+		display: flex;
+	}
+}
 @include desktop {
-	.price__category1-list li,
-	.price__category2-list li {
-		text-align: center;
-	}
-
-	.price__category1-list p,
-	.price__category2-list p {
-		width: 70%;
-		margin-left: 15%;
-		text-align: center;
-	}
 }
